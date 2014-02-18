@@ -8,7 +8,6 @@ use Panadas\Event\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\ApplicationAwareInterface;
 use Panadas\Framework\ApplicationAwareTrait;
-use Panadas\HttpMessage\Cookie;
 
 class Auth extends BaseAuth implements ApplicationAwareInterface
 {
