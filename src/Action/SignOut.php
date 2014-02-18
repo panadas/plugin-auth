@@ -1,8 +1,8 @@
 <?php
-namespace Panadas\AuthModule\Action;
+namespace Panadas\AuthPlugin\Action;
 
 use Panadas\Framework\Action\AbstractAction;
-use Panadas\HttpMessage\Request;
+use Panadas\HttpMessageModule\Request;
 
 class SignOut extends AbstractAction
 {

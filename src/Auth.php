@@ -1,14 +1,14 @@
 <?php
-namespace Panadas\AuthModule;
+namespace Panadas\AuthPlugin;
 
-use Panadas\AuthManager\Auth as BaseAuth;
-use Panadas\EventManager\Event;
+use Panadas\AuthModule\Auth as BaseAuth;
+use Panadas\AuthModule\Handler\HandlerInterface;
+use Panadas\AuthModule\UserFinder\UserFinderInterface;
+use Panadas\EventModule\Event;
 use Panadas\Framework\Application;
 use Panadas\Framework\ApplicationAwareInterface;
 use Panadas\Framework\ApplicationAwareTrait;
-use Panadas\HttpMessage\Cookie;
-use Panadas\AuthManager\UserFinder\UserFinderInterface;
-use Panadas\AuthManager\Handler\HandlerInterface;
+use Panadas\HttpMessageModule\Cookie;
 
 class Auth extends BaseAuth implements ApplicationAwareInterface
 {
