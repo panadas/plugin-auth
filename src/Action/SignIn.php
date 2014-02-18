@@ -3,7 +3,7 @@ namespace Panadas\AuthPlugin\Action;
 
 use Panadas\Framework\Action\AbstractAction;
 use Panadas\Framework\HttpMessage\HtmlResponse;
-use Panadas\HttpMessageModule\Request;
+use Panadas\HttpMessage\Request;
 
 class SignIn extends AbstractAction
 {

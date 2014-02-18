@@ -2,7 +2,7 @@
 namespace Panadas\AuthPlugin\Action;
 
 use Panadas\Framework\Action\AbstractAction;
-use Panadas\HttpMessageModule\Request;
+use Panadas\HttpMessage\Request;
 
 class SignOut extends AbstractAction
 {
